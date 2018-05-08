@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/src" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/lianjin/c:c++/epollTest/trunk/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CCommonData.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CCommonData.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CIOCPWorkThread.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CIOCPWorkThread.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CListener.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CListener.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CSessionMgr.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CSessionMgr.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CSyncBuffer.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CSyncBuffer.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CSyncQueue.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CTcpConnection.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CTcpConnection.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CTcpConnectionMgr.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CTcpConnectionMgr.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CircularBuffer.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CircularBuffer.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/Epoll.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/Mutex.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/Session.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/Session.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/Typedef.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/Typedef.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/circleBuffer.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/circleBuffer.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/threadBase.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/threadBase.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="/Users/lianjin/c:c++/epollTest/trunk/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
