@@ -1,4 +1,5 @@
 // 2018-11-06 by jinlian
+// 基于数组实现的红黑树，利用数组内存连续和cpu cache的特性，在查找操作时速度快30%以上
 #include <vector>
 #include <iostream>
 
