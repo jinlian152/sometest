@@ -3,7 +3,7 @@
 #include<list>
 #include<stack>
 #include<queue>
-
+//demo: bfs min dist search
 std::vector< std::list<int> > graph;
 
 void construct_graph() {
@@ -48,7 +48,7 @@ struct NodeInfo {
 
 std::vector<NodeInfo> nodeinfos(8, NodeInfo(-1));
 
-void bfs(int src, int dest, std::stack<int>& path) {
+void bfs_min_dist(int src, int dest, std::stack<int>& path) {
     std::cout << "graph_size=" << graph.size() << std::endl;
     std::vector<int> color(8, 0);//0:white 1:gray 2:black
     std::queue<int> nodes;
@@ -91,7 +91,7 @@ int main() {
     construct_graph();
     int src = 1;
     int dest  = 7;
-    bfs(src, dest, path);
+    bfs_min_dist(src, dest, path);
     int index = dest;
     while (nodeinfos[index].parent > 0) {
         printf ("%d<-", index);
