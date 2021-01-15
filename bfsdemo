@@ -37,7 +37,7 @@ void construct_graph() {
     graph.push_back(temp); // 6
 
     temp.clear();
-    graph.push_back(temp); // 6
+    graph.push_back(temp); // 7
 }
 
 struct NodeInfo {
