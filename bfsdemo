@@ -1,0 +1,103 @@
+#include <iostream>
+#include<vector>
+#include<list>
+#include<stack>
+#include<queue>
+
+std::vector< std::list<int> > graph;
+
+void construct_graph() {
+    std::list<int> temp;
+    graph.push_back(temp); //0 is empty
+    temp.push_back(2);
+    temp.push_back(4);
+    graph.push_back(temp); // 1
+
+    temp.clear();
+    temp.push_back(5);
+    graph.push_back(temp); // 2
+
+    temp.clear();
+    // temp.push_back(5);
+    temp.push_back(6);
+    temp.push_back(7);
+    graph.push_back(temp); // 3
+
+    temp.clear();
+    temp.push_back(2);
+    graph.push_back(temp); // 4
+
+    temp.clear();
+    temp.push_back(4);
+    temp.push_back(3);
+    graph.push_back(temp); // 5
+
+    temp.clear();
+    temp.push_back(7);
+    graph.push_back(temp); // 6
+
+    temp.clear();
+    graph.push_back(temp); // 6
+}
+
+struct NodeInfo {
+    NodeInfo(int p) : parent(p) {}
+    int parent;
+};
+
+
+std::vector<NodeInfo> nodeinfos(8, NodeInfo(-1));
+
+void bfs(int src, int dest, std::stack<int>& path) {
+    std::cout << "graph_size=" << graph.size() << std::endl;
+    std::vector<int> color(8, 0);//0:white 1:gray 2:black
+    std::queue<int> nodes;
+    nodes.push(src);
+    color[src] = 1;
+
+    nodeinfos[src].parent = -1;
+
+    while (!nodes.empty()) {
+        std::cout << "33333\n"; 
+        auto value = nodes.front();
+        nodes.pop();
+        auto& list = graph[value];
+        if (list.empty()) {
+            continue;
+        }
+
+        path.push(value);
+        std::cout << "value=" << value << std::endl;
+        for (auto& iter : list) {
+            if (color[iter] != 0) {
+                std::cout << "is not white iter=" << iter << std::endl;
+                continue;
+            }
+            nodeinfos[iter].parent = value;
+            std::cout << "iter=" << iter << std::endl;
+            nodes.push(iter);
+            color[iter] = 1;
+            if (iter == dest) {
+                path.push(iter);
+                return;
+            }
+        }
+        color[value] = 2;
+    }
+}
+
+int main() {
+    std::stack<int> path;
+    construct_graph();
+    int src = 1;
+    int dest  = 7;
+    bfs(src, dest, path);
+    int index = dest;
+    while (nodeinfos[index].parent > 0) {
+        printf ("%d<-", index);
+        index = nodeinfos[index].parent;
+    }
+
+    std::cout << src << std::endl;
+    return 0;
+}
