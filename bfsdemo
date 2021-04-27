@@ -5,7 +5,7 @@
 #include<queue>
 //demo: bfs min dist search
 std::vector< std::list<int> > graph;
-
+//广度优先核心是每一个节点遍历子节点并对比子节点是否是目标节点，如果在子节点中未发现目标节点，继续以节点的子节点继续搜索；
 void construct_graph() {
     std::list<int> temp;
     graph.push_back(temp); //0 is empty
