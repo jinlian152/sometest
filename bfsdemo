@@ -47,7 +47,7 @@ struct NodeInfo {
 
 
 std::vector<NodeInfo> nodeinfos(8, NodeInfo(-1));
-
+//path可以忽略，没有用到
 void bfs_min_dist(int src, int dest, std::stack<int>& path) {
     std::cout << "graph_size=" << graph.size() << std::endl;
     std::vector<int> color(8, 0);//0:white 1:gray 2:black
